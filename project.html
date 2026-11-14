@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project // Zenon DEVIDTS - Student Systeem- en Netwerkbeheer</title>
+    <meta name="description" content="Een project van Zenon Devidts in detail: de opdracht, mijn aanpak en het resultaat. Zo werk ik als systeem- en netwerkbeheerder in opleiding.">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col gap-4">
+        <header class="py-3 flex flex-wrap items-center justify-between border-b border-gray-200">
+            <a href="index.html"><img src="assets/images/app-icoon-512-blauw.png" width="50" alt="logo"></a>
+            <input type="checkbox" id="menu-knop" class="peer sr-only">
+            <label for="menu-knop"
+                class="cursor-pointer rounded-lg border border-gray-300 px-3 py-2 peer-focus-visible:outline-2 md:hidden"><svg
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </label>
+            <nav aria-label="Hoofdmenu" class="hidden w-full peer-checked:block md:block md:w-auto">
+                <ul class="flex flex-col md:flex-row md:gap-2">
+                    <li>
+                        <a href="index.html" class="block px-3 py-2 rounded-lg">Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"
+                            class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="project.html"
+                            aria-current="page"
+                            class="block px-3 py-2 rounded-lg bg-blue-100 text-blue-800 font-semibold">Project</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+            <main class="border lg:col-span-3">
+                <h1 class="m-3 font-bold text-xl">Projectnaam</h1>
+                <p class="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus magni, at
+                    eligendi itaque labore natus ullam accusantium recusandae minima.</p>
+                <div class="p-3">
+                    <img alt="Oplossen van problemen met gebruik van SSH ssh-terminal-router-interfaces." src="assets/images/ssh-terminal-router-interfaces.jpg">
+                </div>
+                <h2 class="font-bold text-xl pl-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                    molestias! </h2>
+                <p class="px-3 pt-1 pb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, molestias!
+                </p>
+                <h2 class="font-bold text-xl pl-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                    molestias! </h2>
+                <p class="px-3 pt-1 pb-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, molestias!
+                </p>
+                <h2 class="font-bold text-xl pl-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                    molestias! </h2>
+                <div class="flex items-center p-3 mx-auto">
+                    <div class="border p-2 mr-2">
+                        <h3 class="font-bold">Projectnaam 1</h3>
+                    </div>
+                    <div class="border p-2">
+                        <h3 class="font-bold"> Projectnaam 2</h3>
+                    </div>
+                </div>
+                <a class="ml-3 mb-3 p-2 inline-block border" href="portfolio.html">&lsaquo; terug naar portfolio </a>
+            </main>
+            <aside class="border p-3 flex flex-col gap-4">
+                <section class="border border-gray-300 p-3">
+                    <table class="w-full text-left text-gray-700">
+                        <caption class="text-left">
+                            <h2 class="font-bold text-xl text-black mb-2">Projectnaam</h2>
+                        </caption>
+                        <tbody>
+                            <tr>
+                                <th class="font-normal w-20 py-1" scope="row">rol</th>
+                                <td>[dit is een placeholder voor de rol]</td>
+                            </tr>
+                            <tr>
+                                <th class="font-normal py-1" scope="row">tools</th>
+                                <td>[dit is een placeholder voor de tools]</td>
+                            </tr>
+                            <tr>
+                                <th class="font-normal py-1" scope="row">duur</th>
+                                <td>[dit is een placeholder voor de duur]</td>
+                            </tr>
+                            <tr>
+                                <th class="font-normal py-1" scope="row">datum</th>
+                                <td>[dit is een placeholder voor de datum]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section>
+                    <h2 class="font-bold text-xl mb-2">placeholder</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+                        <article class="flex items-start gap-4">
+                            <img class="size-24 object-cover" src="assets/images/app-icoon-512-blauw.png"
+                                alt="Miniatuur van het project" width="250" height="250">
+                            <div>
+                                <h3 class="font-bold">Projectnaam</h3>
+                                <p class="text-gray-600">Korte beschrijving van het project.</p>
+                            </div>
+                        </article>
+                        <article class="flex items-start gap-4">
+                            <img class="size-24 object-cover" src="assets/images/app-icoon-512-blauw.png"
+                                alt="Miniatuur van het project" width="250" height="250">
+                            <div>
+                                <h3 class="font-bold">Projectnaam</h3>
+                                <p class="text-gray-600">Korte beschrijving van het project.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </aside>
+        </div>
+        <footer class="border p-3">
+            <p class="text-gray-700 mb-3"> &copy; 2026 Zenon DEVIDTS</p>
+            <p class="text-gray-700 mb-3">Systeem- en netwerkbeheerder in opleiding</p>
+            <div class="flex gap-2">
+                <a class="border inline-flex size-12 items-center justify-center font-bold" href="contact.html"><svg xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
+                    </svg>
+                </a>
+                <a class="border inline-flex size-12 items-center justify-center font-bold"
+                    href="https://www.linkedin.com/in/zenon-devidts-a1744821a/">in</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

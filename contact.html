@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact // Zenon DEVIDTS - Student Systeem- en Netwerkbeheer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Stuur Zenon Devidts een bericht over een stage, een project of een vraag. Je vindt hier ook mijn e-mailadres en LinkedIn.">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col gap-4">
+        <header class="py-3 flex flex-wrap items-center justify-between border-b border-gray-200">
+            <a href="index.html"><img src="assets/images/app-icoon-512-blauw.png" width="50" alt="logo"></a>
+            <input type="checkbox" id="menu-knop" class="peer sr-only">
+            <label for="menu-knop"
+                class="cursor-pointer rounded-lg border border-gray-300 px-3 py-2 peer-focus-visible:outline-2 md:hidden"><svg
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </label>
+            <nav aria-label="Hoofdmenu" class="hidden w-full peer-checked:block md:block md:w-auto">
+                <ul class="flex flex-col md:flex-row md:gap-2">
+                    <li>
+                        <a href="index.html" class="block px-3 py-2 rounded-lg">Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"
+                            class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="project.html"
+                            class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Project</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" aria-current="page"
+                            class="block px-3 py-2 rounded-lg bg-blue-100 text-blue-800 font-semibold">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <main class="border-gray-300 border lg:col-span-2">
+                <form action="#" method="get" class=" m-4 grid gap-4 md:grid-cols-2">
+            <div>
+                <label for="naam" class="block font-medium">naam</label>
+                <input autocomplete="naam" type="text" id="naam" name="naam"
+                    class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2">
+            </div>
+            <div>
+                <label for="email" class="block font-medium">email <span class="text-red-700"
+                        aria-hidden="true">*</span></label>
+                <input autocomplete="email" type="email" id="email" name="email" required
+                    class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2">
+            </div>
+            <div class="md:col-span-2">
+                <label for="onderwerp" class="block font-medium">onderwerp <span class="text-red-700"
+                        aria-hidden="true">*</span></label>
+                <input autocomplete="onderwerp" type="text" id="onderwerp" name="onderwerp" required
+                    class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2">
+            </div>
+            <div class="md:col-span-2 ">
+                <label for="onderwerp" class="block font-medium">bericht</label>
+                <textarea class="w-full border-gray-400 border bg-white">
+                    
+                </textarea>
+            </div>
+           
+            <button class="w-11/12 border py-1.5 px-4 bg-gray-700 hover:bg-blue-800 text-white rounded-lg" type="submit" value="ja">verstuur</button>
+        </form>
+            </main>
+            <aside class="border border-gray-300 p-3 text-sm">
+    <img src="assets/images/zenon-devidts-pasfoto.jpg" alt="Pasfoto van Zenon Devidts"
+        class="mx-auto mb-4 size-24 rounded-full object-cover">
+
+    <h1 class="mb-2 text-lg font-bold">Contactinfo</h1>
+
+    <a href="mailto:zenon.devidts@protonmail.com"
+        class="flex items-center gap-2 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700">
+        <span class="inline-flex size-12 shrink-0 items-center justify-center border border-gray-300"
+            aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="size-4">
+                <path fill-rule="evenodd"
+                    d="M17.834 6.166a8.25 8.25 0 1 0 0 11.668.75.75 0 0 1 1.06 1.06c-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788 3.807-3.808 9.98-3.808 13.788 0A9.722 9.722 0 0 1 21.75 12c0 .975-.296 1.887-.809 2.571-.514.685-1.28 1.179-2.191 1.179-.904 0-1.666-.487-2.18-1.164a5.25 5.25 0 1 1-.82-6.26V8.25a.75.75 0 0 1 1.5 0V12c0 .682.208 1.27.509 1.671.3.401.659.579.991.579.332 0 .69-.178.991-.579.3-.4.509-.99.509-1.671a8.222 8.222 0 0 0-2.416-5.834ZM15.75 12a3.75 3.75 0 1 0-7.5 0 3.75 3.75 0 0 0 7.5 0Z"
+                    clip-rule="evenodd" />
+            </svg></span>
+        zenon.devidts@protonmail.com
+    </a>
+
+    <a href="https://www.linkedin.com/in/zenon-devidts-a1744821a/"
+        class="mt-2 flex items-center gap-2 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700">
+        <span class="inline-flex size-12 shrink-0 items-center justify-center border border-gray-300 font-bold"
+            aria-hidden="true">in</span>
+        LinkedIn
+    </a>
+
+    <div class="mt-2 flex items-center gap-2">
+        <span class="inline-flex size-12 shrink-0 items-center justify-center border border-gray-300"
+            aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="size-4">
+                <path
+                    d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                <path
+                    d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+            </svg></span>
+        Merksem, België
+    </div>
+
+    <h2 class="mt-4 mb-2 text-lg font-bold">Opleiding</h2>
+    <p class="text-gray-700">Ik volg het graduaat Systeem- en netwerkbeheer aan AP Hogeschool in Antwerpen.</p>
+</aside>
+        </div>
+        <footer class="border border-gray-300 p-3">
+            <p class="text-gray-700 mb-3">&copy; 2026 Zenon DEVIDTS</p>
+            <p class="text-gray-700 mb-3">Systeem- en netwerkbeheerder in opleiding</p>
+        </footer>
+    </div>
+</body>
+
+</html>
