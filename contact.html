@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl-BE">
-
+<!-- npx @tailwindcss/cli -i css/input.css -o css/tailwind.css --minify -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,14 +65,15 @@
                     class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2">
             </div>
             <div class="md:col-span-2 ">
-                <label for="onderwerp" class="block font-medium">bericht</label>
-                <textarea class="w-full border-gray-400 border bg-white">
+                <label for="bericht" class="block font-medium">bericht</label>
+                <textarea class="w-full border-gray-400 border bg-white" name="bericht" id="bericht">
                     
                 </textarea>
             </div>
-           
+          
             <button class="w-11/12 border py-1.5 px-4 bg-gray-700 hover:bg-blue-800 text-white rounded-lg" type="submit" value="ja">verstuur</button>
         </form>
+         <p class="text-sm ml-5 text-gray-400">Ik gebruik je naam, e-mailadres en bericht alleen om je vraag te beantwoorden en deel ze met niemand.</p>
             </main>
             <aside class="border border-gray-300 p-3 text-sm">
     <img src="assets/images/zenon-devidts-pasfoto.jpg" alt="Pasfoto van Zenon Devidts"
